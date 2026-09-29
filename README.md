@@ -4,7 +4,7 @@ Project Name: Habitat-X
 The Idea
 HABITAT-X finds real places on Earth that match future Moon and Mars sites, then uses NASA data to test if a settlement could actually survive there. It connects three levels:
 Planet → Settlement → Human
-Instead of just picking a spot on a map and hoping it's a good match, LIFEBOAT shows why a place is a good Moon/Mars stand-in, tests what happens when things go wrong there, and lets users try out fixes.
+Instead of just picking a spot on a map and hoping it's a good match, HABITAT-X shows why a place is a good Moon/Mars stand-in, tests what happens when things go wrong there, and lets users try out fixes.
 
 How It Works
 1. Explore — Find the Match
