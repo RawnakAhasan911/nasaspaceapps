@@ -12,7 +12,7 @@ How It Works
 2. Build — Settlement Scale
  At the matched Earth site, users build a small settlement with limited resources — water, food, energy, shelter, emergency supplies. They decide where to place things and how to get water and power.
 3. Simulate — Stress-Test
- The environment changes over time, using real data from that Earth location. When something goes wrong (a heat spike, a water drop, a storm), LIFEBOAT doesn't just lower a number on a bar. It shows the chain of events: water runs low → farming drops → food runs low → the settlement can't support as many people. This uncovers hidden weak points before they cause real failure and since the site is a real Earth analog, these lessons carry over to the actual Moon/Mars site.
+ The environment changes over time, using real data from that Earth location. When something goes wrong (a heat spike, a water drop, a storm), HABITAT-X doesn't just lower a number on a bar. It shows the chain of events: water runs low → farming drops → food runs low → the settlement can't support as many people. This uncovers hidden weak points before they cause real failure and since the site is a real Earth analog, these lessons carry over to the actual Moon/Mars site.
 4. Crew Resilience Human Scale
  A layer tracks crew signs like sleep, tiredness, activity, and movement, using simple computer vision to help measure movement patterns. This connects environment and settlement stress to the actual people living through it, not just the buildings.
 5. Intervention Lab - What-If
