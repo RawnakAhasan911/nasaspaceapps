@@ -8,14 +8,14 @@ Instead of just picking a spot on a map and hoping it's a good match, LIFEBOAT s
 
 How It Works
 1. Explore — Find the Match
- Users pick a real Moon or Mars site (like a lunar crater or a Martian crater floor). LIFEBOAT then searches real Earth locations and shows which ones are the closest match, using real NASA data: temperature, water levels, terrain, soil, and how the environment changes over time. Example matches: a desert on Earth for a dry Martian plain, or a polar site for a shadowed lunar crater.
+ Users pick a real Moon or Mars site (like a lunar crater or a Martian crater floor). HABITAT-X then searches real Earth locations and shows which ones are the closest match, using real NASA data: temperature, water levels, terrain, soil, and how the environment changes over time. Example matches: a desert on Earth for a dry Martian plain, or a polar site for a shadowed lunar crater.
 2. Build — Settlement Scale
  At the matched Earth site, users build a small settlement with limited resources — water, food, energy, shelter, emergency supplies. They decide where to place things and how to get water and power.
 3. Simulate — Stress-Test
- The environment changes over time, using real data from that Earth location. When something goes wrong (a heat spike, a water drop, a storm), LIFEBOAT doesn't just lower a number on a bar. It shows the chain of events: water runs low → farming drops → food runs low → the settlement can't support as many people. This uncovers hidden weak points before they cause real failure — and since the site is a real Earth analog, these lessons carry over to the actual Moon/Mars site.
-4. Crew Resilience — Human Scale
+ The environment changes over time, using real data from that Earth location. When something goes wrong (a heat spike, a water drop, a storm), LIFEBOAT doesn't just lower a number on a bar. It shows the chain of events: water runs low → farming drops → food runs low → the settlement can't support as many people. This uncovers hidden weak points before they cause real failure and since the site is a real Earth analog, these lessons carry over to the actual Moon/Mars site.
+4. Crew Resilience Human Scale
  A layer tracks crew signs like sleep, tiredness, activity, and movement, using simple computer vision to help measure movement patterns. This connects environment and settlement stress to the actual people living through it, not just the buildings.
-5. Intervention Lab — What-If
+5. Intervention Lab - What-If
  Users test fixes: store more water, grow less food, add backups, change how the crew works, or move the settlement. Users can also ask direct questions like "what if it gets 5°C hotter?" or "what if more people arrive?" and see real numbers change in response, not guesses.
 6. HABITAT-X Researcher (AI)
  An AI helper — not a chatbot — that:
@@ -48,7 +48,7 @@ Space: Helps NASA and mission planners find good real-world testing sites for fu
 Education: Gives students and researchers a safe place to compare strategies before using them for real.
 
 Format
-LIFEBOAT
+HABITAT-X
 │
 ├── TUTORIAL MODE (game)
 │     A short guided example, one location, one pre-set problem
