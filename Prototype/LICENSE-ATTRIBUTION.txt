@@ -1,0 +1,6 @@
+HABITAT-X acknowledges the public reference project:
+
+N3rson / Solar-System-3D
+https://github.com/N3rson/Solar-System-3D
+
+The upstream repository identifies itself as MIT licensed. This HABITAT-X frontend is an independent implementation inspired by the documented feature set. If you copy upstream source or assets into this project, retain the upstream MIT license and its applicable attribution notices.
