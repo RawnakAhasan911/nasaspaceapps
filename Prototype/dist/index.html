@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#06101b" />
+  <meta name="description" content="HABITAT-X — NASA-data-powered Mission Resilience Digital Twin" />
+  <title>HABITAT-X — Mission Resilience Digital Twin</title>
+  <style>
+    html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#02050a;color:#eaf4ff;font-family:'JetBrains Mono',monospace,sans-serif;overscroll-behavior:none}
+    #boot{position:fixed;inset:0;z-index:999;display:grid;place-items:center;background:#02050a;transition:opacity .8s,visibility .8s}
+    .boot-logo-wrap{position:relative;width:140px;height:140px;display:flex;align-items:center;justify-content:center;margin-top:-60px}
+    .boot-logo{width:115px;height:115px;border-radius:50%;object-fit:cover;box-shadow:0 0 35px rgba(93,167,222,.4),0 0 70px rgba(93,167,222,.15);border:1px solid rgba(120,184,240,.4);display:block}
+    .boot-word,.boot-status,.boot-bar{position:absolute}
+    .boot-word{margin-top:165px;font-weight:600;font-size:26px;letter-spacing:7px;color:#eaf4ff}
+    .boot-status{margin-top:228px;color:#617e98;font-size:8px;letter-spacing:1.5px}
+    .boot-bar{margin-top:268px;width:260px;height:3px;background:#10202d}
+    #toast{position:fixed;left:50%;bottom:28px;transform:translate(-50%,10px);opacity:0;z-index:70;background:rgba(5,15,24,.94);border:1px solid #35566f;color:#a9c8df;padding:8px 11px;font:8px "JetBrains Mono",monospace;transition:.2s;pointer-events:none}
+    #toast.show{opacity:1;transform:translate(-50%,0)}
+  </style>
+
+  <script type="importmap">
+  {"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"}}
+  </script>
+  <script type="module" crossorigin src="/assets/index-BWiihTvs.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-D4MvCP39.css">
+</head>
+<body>
+  <div id="boot"><div class="boot-grid"></div><div class="boot-logo-wrap"><img src="/assets/logo-BA6UhSLK.png" class="boot-logo" alt="HABITAT-X Logo" /><div class="boot-ring"></div></div><div class="boot-word">HABITAT-X</div><div class="boot-status" id="bootStatus">INITIALIZING CELESTIAL NAVIGATION</div><div class="boot-bar"><i id="bootBar"></i></div></div>
+  <div id="scene"></div>
+  <div id="ui"></div>
+</body>
+</html>
