@@ -1,64 +1,153 @@
-# nasaspaceapps
-Project Name: Habitat-X
+# HABITAT-X
 
-The Idea
-HABITAT-X finds real places on Earth that match future Moon and Mars sites, then uses NASA data to test if a settlement could actually survive there. It connects three levels:
-Planet → Settlement → Human
-Instead of just picking a spot on a map and hoping it's a good match, HABITAT-X shows why a place is a good Moon/Mars stand-in, tests what happens when things go wrong there, and lets users try out fixes.
+**Before a Mission Fails, Find Out Why.**
 
-How It Works
-1. Explore — Find the Match
- Users pick a real Moon or Mars site (like a lunar crater or a Martian crater floor). HABITAT-X then searches real Earth locations and shows which ones are the closest match, using real NASA data: temperature, water levels, terrain, soil, and how the environment changes over time. Example matches: a desert on Earth for a dry Martian plain, or a polar site for a shadowed lunar crater.
-2. Build — Settlement Scale
- At the matched Earth site, users build a small settlement with limited resources — water, food, energy, shelter, emergency supplies. They decide where to place things and how to get water and power.
-3. Simulate — Stress-Test
- The environment changes over time, using real data from that Earth location. When something goes wrong (a heat spike, a water drop, a storm), HABITAT-X doesn't just lower a number on a bar. It shows the chain of events: water runs low → farming drops → food runs low → the settlement can't support as many people. This uncovers hidden weak points before they cause real failure and since the site is a real Earth analog, these lessons carry over to the actual Moon/Mars site.
-4. Crew Resilience Human Scale
- A layer tracks crew signs like sleep, tiredness, activity, and movement, using simple computer vision to help measure movement patterns. This connects environment and settlement stress to the actual people living through it, not just the buildings.
-5. Intervention Lab - What-If
- Users test fixes: store more water, grow less food, add backups, change how the crew works, or move the settlement. Users can also ask direct questions like "what if it gets 5°C hotter?" or "what if more people arrive?" and see real numbers change in response, not guesses.
-6. HABITAT-X Researcher (AI)
- An AI helper — not a chatbot — that:
-Finds hidden weak points and risks
-Builds what-if scenarios on request
-Explains results in plain language
-Compares strategies (like water-first vs. self-sufficient vs. mobile) under the same conditions
-The AI suggests and explains. The person makes the final call.
-7. Mission Report
- A summary at the end: how long the settlement lasted, safety scores for water/energy/food, the biggest weak point found, what caused it, and a suggestion for what to try next.
+NASA Space Apps Challenge 2026 | Team Anthelion
 
-The Core Shift
-The old question was: "Can this settlement survive?"
-LIFEBOAT now asks: "What would make it fail, how would that failure spread, and what can we do about it?"
-Find Match → Build → Simulate → Stress-Test → Trace Failure → What-If → Intervene → Recover
-LIFEBOAT doesn't claim to predict exactly what will happen on a real mission. It's a testing ground where real NASA data, simulation, AI, and human judgment come together — to explore failure, test fixes, and build resilience thinking before it matters in real life.
+- Live project: [add public link]
+- Demo (30 seconds or 7 slides): [add public link]
+- Repository: [add link]
 
-Why It's Different
-Games about "surviving on Mars" using NASA data already exist (for example, Mars Life, a 2016 Global Nominee — a guided chatbot survival game). Settlement builders and resource simulators are common too. What hasn't been combined before:
-Real Earth-to-Moon/Mars matching, not a made-up map
-Failure-chain tracing, not just watching a resource bar drop
-An Intervention Lab for testing fixes, not just reacting after something breaks
-Strategy comparison under the same conditions, instead of just "pick the best spot"
-A Crew Resilience layer connecting environment → settlement → human body
-One same engine used across Earth, Moon, and Mars
+---
 
-Real-World Impact
-Earth: Helps researchers and disaster-planning teams understand resilience to heat, drought, and water shortages in real regions — the same regions used as Moon/Mars stand-ins.
-Space: Helps NASA and mission planners find good real-world testing sites for future Moon and Mars settlements, and understand how crews handle combined stress.
-Education: Gives students and researchers a safe place to compare strategies before using them for real.
+## Overview
 
-Format
+HABITAT-X is an interactive, NASA-data-driven simulation platform for exploring the resilience of future human settlements on the Moon and Mars. It matches real lunar and Martian sites with comparable environments on Earth, lets users build a settlement there, stress-tests it, and traces how a failure spreads so that users can find the underlying weak point and test fixes.
+
+The platform connects three levels:
+
+**Planet → Settlement → Human**
+
+Instead of picking a spot on a map and hoping it is a good match, HABITAT-X shows why an Earth location is a good Moon or Mars stand-in, tests what happens when things go wrong there, and lets users try out solutions.
+
+## The Core Shift
+
+The old question was: *"Can this settlement survive?"*
+
+HABITAT-X asks: *"What would make it fail, how would that failure spread, and what can we do about it?"*
+
+**Find Match → Build → Simulate → Stress-Test → Trace Failure → What-If → Intervene → Recover**
+
+HABITAT-X does not claim to predict what will happen on a real mission. It is a testing ground where NASA data, simulation, AI, and human judgment come together to explore failure, test fixes, and build resilience thinking before it matters in real life.
+
+## How It Works
+
+### 1. Explore: Find the Match
+Users pick a real Moon or Mars site, such as a lunar crater or a Martian crater floor. HABITAT-X searches real Earth locations and shows the closest matches using NASA data on temperature, water, terrain, soil, and environmental change over time. For example, an Earth desert can stand in for a dry Martian plain, and a polar site can stand in for a shadowed lunar crater.
+
+### 2. Build: Settlement Scale
+At the matched site, users build a small settlement with limited water, food, energy, shelter, and emergency supplies. They decide where to place things and how to obtain water and power. Resources are limited, so every decision has a trade-off.
+
+### 3. Simulate: Stress-Test
+The environment changes over time using real data from the Earth analog. When something goes wrong, such as a heat spike, a water drop, or a storm, HABITAT-X does not just lower a number on a bar. It shows the chain of events:
+
+**Heat → Water → Agriculture → Food → Crew**
+
+This exposes hidden weak points before they cause real failure. Because the site is a real Earth analog, the lessons can inform thinking about the actual Moon or Mars site.
+
+### 4. Crew Resilience: Human Scale
+A crew layer tracks signs such as sleep, tiredness, activity, and movement, using simple computer vision to help measure movement patterns. This connects environmental and settlement stress to the people living through it, not just the buildings.
+
+### 5. Intervention Lab: What-If
+Users test fixes such as storing more water, growing less food, adding backups, changing crew shifts, or moving the settlement. They can also ask direct questions like "What if it gets 5°C hotter?" or "What if more people arrive?" and see the model's actual numbers change in response.
+
+### 6. HABITAT-X Researcher (AI)
+An AI helper, not a general chatbot, that:
+
+- finds hidden weak points and risks
+- builds what-if scenarios on request
+- explains results in plain language
+- compares strategies (for example water-first, self-sufficient, or mobile) under the same conditions
+
+The AI suggests and explains. The simulation calculates. The person makes the final call.
+
+### 7. Mission Report
+A summary at the end of each run: how long the settlement lasted, safety scores for water, energy, and food, the biggest weak point found, what caused it, and a suggestion for what to try next.
+
+## Product Format
+
+```
 HABITAT-X
 │
-├── TUTORIAL MODE (game)
-│     A short guided example, one location, one pre-set problem
-│     "Learn the loop": build → problem hits → trace failure → fix it
-│     Ends with: "Now try it yourself" → moves user into the Portal
+├── TUTORIAL MODE
+│     A short guided example: one location, one pre-set problem.
+│     Learn the loop: build → problem hits → trace failure → fix it.
+│     Ends with "Now try it yourself", which moves the user into the Portal.
 │
-└── PORTAL (the actual product)
-      Explore  → find real Earth matches for a Moon/Mars site
+└── PORTAL
+      Explore  → find real Earth matches for a Moon or Mars site
       Build    → your settlement, your resources
       Simulate → real data-driven changes over time, real shocks
       Copilot  → AI finds risks, runs what-ifs, compares strategies
-      Report   → Mission Report / summary
+      Report   → Mission Report
+```
 
+## What Makes It Different
+
+Survival games built on NASA data already exist (for example Mars Life, a 2016 Global Nominee, which is a guided chatbot survival game), and settlement builders and resource simulators are common. HABITAT-X combines elements that are usually separate:
+
+- Real Earth-to-Moon/Mars matching, not an invented map
+- Failure-chain tracing, not just a resource bar dropping
+- An Intervention Lab for testing fixes before something breaks
+- Strategy comparison under identical conditions
+- A Crew Resilience layer linking environment, settlement, and human
+- One engine used across Earth, Moon, and Mars
+
+## Impact
+
+- **Earth:** Helps researchers and disaster-planning teams study resilience to heat, drought, and water shortages in real regions, the same regions used as Moon and Mars stand-ins.
+- **Space:** Helps mission planners explore candidate testing sites for future Moon and Mars settlements and understand how combined stresses affect crews.
+- **Education:** Gives students and researchers a safe place to compare strategies before applying them in the real world.
+
+## NASA Data Used
+
+> Keep only the datasets your build actually uses, and match this list to the submission form.
+
+| Dataset | Link | Use |
+|---|---|---|
+| MODIS Land Surface Temperature (MOD11A1) | https://lpdaac.usgs.gov/products/mod11a1v061/ | Surface temperature profiles for analog matching |
+| NASA POWER | https://power.larc.nasa.gov/ | Temperature and solar energy data for analog sites and heat events |
+| SMAP Soil Moisture | https://nsidc.org/data/smap | Soil and water availability comparison |
+| GRACE / GRACE-FO | https://grace.jpl.nasa.gov/data/get-data/ | Water storage change for scarcity events |
+| SRTM Digital Elevation (SRTMGL1) | https://lpdaac.usgs.gov/products/srtmgl1v003/ | Terrain and elevation comparison |
+| LRO (LOLA and Diviner) | https://pds-geosciences.wustl.edu/missions/lro/ | Lunar terrain and surface temperature |
+| Mars Global Surveyor MOLA | https://pds-geosciences.wustl.edu/missions/mgs/mola.html | Martian topography |
+
+## Tech Stack
+
+> Fill in with what you actually used.
+
+- Frontend: [framework]
+- Backend and simulation: [language, libraries]
+- Computer vision: [library or model]
+- AI Researcher: [model or API]
+- Other libraries, fonts, icons, and assets: [list with links and licenses]
+
+## Getting Started
+
+> Replace with your real steps.
+
+```bash
+git clone [repository url]
+cd [project folder]
+[install command]
+[run command]
+```
+
+## Limitations
+
+HABITAT-X is a working prototype and an exploratory framework. Earth analogs cannot perfectly reproduce lunar or Martian conditions, and the simulation does not predict real mission outcomes. Future work includes deeper NASA datasets, expert validation, and feedback from real mission contexts.
+
+## Team
+
+Team Anthelion: five computer science students.
+
+- [Name, role]
+
+## License
+
+[Add a license, or state "All rights reserved".]
+
+---
+
+*HABITAT-X: Before a Mission Fails, Find Out Why.*
